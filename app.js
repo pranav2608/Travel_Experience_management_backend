@@ -52,7 +52,7 @@ app.use((error, req, res, next) => {
 
 //connection of my node server to mongoDB cloud Database
 
-mongoose.connect("mongodb+srv://pranav:abpa567y@cluster0.1r9qq.mongodb.net/projectDB?retryWrites=true&w=majority",{useNewUrlParser:true,useUnifiedTopology:true})
+mongoose.connect("########################",{useNewUrlParser:true,useUnifiedTopology:true})
 .then(()=>{
   app.listen(5000,()=>{
     console.log("Server Started At Port 5000");
